@@ -1410,7 +1410,7 @@ function CanvasIsometricGrid({ overlayMode, selectedTile, setSelectedTile }: {
   
   const handleWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
-    const delta = e.deltaY > 0 ? -0.1 : 0.1;
+    const delta = e.deltaY > 0 ? -0.05 : 0.05;
     setZoom(z => Math.max(0.3, Math.min(2, z + delta)));
   }, []);
   

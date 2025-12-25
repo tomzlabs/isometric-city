@@ -8,8 +8,8 @@ import { useMobile } from '@/hooks/useMobile';
 import { getSpritePack, getSpriteCoords, DEFAULT_SPRITE_PACK_ID } from '@/lib/renderConfig';
 import { SavedCityMeta } from '@/types/game';
 
-const STORAGE_KEY = 'isocity-game-state';
-const SAVED_CITIES_INDEX_KEY = 'isocity-saved-cities-index';
+const STORAGE_KEY = 'BNBCITY-game-state';
+const SAVED_CITIES_INDEX_KEY = 'BNBCITY-saved-cities-index';
 
 // Background color to filter from sprite sheets (red)
 const BACKGROUND_COLOR = { r: 255, g: 0, b: 0 };
@@ -264,7 +264,7 @@ function ContractAddressDisplay({ address }: { address: string }) {
   );
 }
 
-const SAVED_CITY_PREFIX = 'isocity-city-';
+const SAVED_CITY_PREFIX = 'BNBCITY-city-';
 
 export default function HomePage() {
   const [showGame, setShowGame] = useState(false);

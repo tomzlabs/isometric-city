@@ -1,4 +1,4 @@
-// Game type definitions for IsoCity
+// Game type definitions for BNBCITY
 
 export type BuildingType =
   | 'empty'

@@ -239,7 +239,7 @@ function ContractAddressDisplay({ address }: { address: string }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      console.error('Failed to copy: ', err);
+      console.error('复制失败: ', err);
     }
   };
 
